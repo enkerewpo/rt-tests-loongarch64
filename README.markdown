@@ -2,6 +2,13 @@
 
 This repository contains some programs that test various rt-linux features.
 
+## LoongArch64 Cross Compile
+
+1. Install toolchain https://github.com/sunhaiyong1978/CLFS-for-LoongArch/releases/download/8.0/loongarch64-clfs-8.0-cross-tools-gcc-full.tar.xz
+2. Now make sure `loongarch64-unknown-linux-gnu-gcc` is in your PATH and can be found by shell
+3. run `build_loongarch64.sh`
+4. done :)
+
 ## Usage
 
 ### Compile
